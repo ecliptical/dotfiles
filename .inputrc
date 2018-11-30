@@ -1,0 +1,8 @@
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set visible-stats on
+set blink-matching-paren on
+set colored-completion-prefix on
+set colored-stats on
+set mark-directories off
+set -o vi
