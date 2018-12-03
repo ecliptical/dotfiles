@@ -9,4 +9,6 @@ Host-portable dot files for macOS.
     `git config core.worktree "../../"`
 4. Point your home directory back to git:
     `echo "gitdir: $HOME/dotfiles/.git" >> ~/.git`
-5. Add your custom *.sh files to ~/.bashrc.d, commit, and push
+5. Actually checkout the files:
+    `git reset --hard origin/master`
+6. Add your custom *.sh files to ~/.bashrc.d, commit, and push
